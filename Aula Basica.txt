@@ -1,0 +1,73 @@
+import java.util.Scanner;
+
+public class Exercicios {
+    public static void main(String[] args) {
+
+        Scanner entradaX = new Scanner(System.in);
+        double entradaUsuario2, entradaUsuario1;
+
+
+        System.out.println("Calcular Juros simples:"); //   JUROS = CAPITAL * TAXA * TEMPO
+        System.out.println("Será nescessario informar: Capital, Taxa e Tempo.");
+        System.out.println("Informe o Capital : ");
+        double capitalEntrada = entradaX.nextDouble();
+        System.out.println("Informe a Taxa (Ex: 7% = 0,07): ");
+        double taxaEntrada = entradaX.nextDouble();
+        System.out.println("Informe o Tempo (Ex: 3 anos = 3): ");
+        double tempoEntrada = entradaX.nextDouble();
+
+        System.out.println("Juro igual á: "+(capitalEntrada*taxaEntrada*tempoEntrada));
+
+
+ /*
+----------------------------------------------------------------------------------------------------------------------------------------
+
+        System.out.println("Valor da Potencia");
+        System.out.println("Informe UM valor: ");
+        entradaUsuario1=entradaX.nextDouble();
+        System.out.println("Informe sua Potencia");
+        entradaUsuario2=entradaX.nextDouble();
+       // Math.pow(entradaUsuario1, entradaUsuario2); // para calcular a potencia usar essa biblioteca do java.
+        System.out.println("O numero: "+entradaUsuario1+", com a Potencia: "+entradaUsuario2+". igual a: "+Math.pow(entradaUsuario1, entradaUsuario2));
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+        System.out.println("Informe Dois valores para serem Somados:");
+        System.out.println("Informe o 1° valor: ");
+        entradaUsuario1 = entradaX.nextInt();
+        System.out.println("Informe o 2° valor: ");
+        entradaUsuario2 = entradaX.nextInt();
+
+        System.out.println("Total: " + (entradaUsuario1+entradaUsuario2)+".");
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+        System.out.println(" Área de um terreno quadrado!! ");
+        System.out.println(" Informe a medida de um lado: ");
+
+        entradaUsuario = entradaX.nextInt();
+        System.out.println(" A área do quadrado: "+(entradaUsuario*entradaUsuario));
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+        System.out.println("Valor do Ingresso: R$35,00. " +
+                        "Informe a quatidade de ingressos:");
+
+        entradaUsuario = entradaX.nextInt();
+        System.out.println("Valor Total: R$"+(entradaUsuario*35)+",00.");
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+        System.out.println("Ao comprar uma geladeira por R$ 800,00 quer parcelar em quatro vezes.");
+        entradaUsuario = entradaX.nextInt();
+
+        calculo = 800/entradaUsuario;
+        System.out.println("Sua parcela sera no valor de: "+calculo);
+
+       */
+
+    }
+}
